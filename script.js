@@ -1,4 +1,6 @@
 //console.log(2)
+const API = "https://chat2022.marijagrigorjev.repl.co/"
+
 let zina = document.querySelector('.manaZina');
 let zinas = document.querySelector('.chataZinas');
 
@@ -16,4 +18,4 @@ async function ieladetChataZinas()
     zinas.innerHTML = dati;
 }
 
-setInterval(ieladetChataZinas)
+setInterval(ieladetChataZinas, 1000)
